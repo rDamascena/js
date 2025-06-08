@@ -1,12 +1,12 @@
 // ==UserScript==
-// @name Untranslate
-// @namespace https://david-trapp.com/
-// @version 2023.12.14
-// @description Auto-show original of translated search results
-// @author David Trapp
-// @match https://www.google.com/search?*
-// @icon https://www.google.com/s2/favicons?sz=64&domain=google.com
-// @grant none
+// @name        Untranslate
+// @description Automatically shows original Google search results
+// @version     2023-12-14
+// @author      David Trapp
+// @namespace   https://david-trapp.com/
+// @match       *://*.google.com/search?*
+// @icon        https://www.google.com/s2/favicons?sz=64&domain=google.com
+// @grant       none
 // ==/UserScript==
 
 (function() {
